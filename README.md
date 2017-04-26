@@ -1,6 +1,6 @@
 # npmtest-mongorito
 
-#### test coverage for  [mongorito (v2.2.0)](https://github.com/vdemedes/mongorito#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongorito.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongorito) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongorito.svg)](https://travis-ci.org/npmtest/node-npmtest-mongorito)
+#### basic test coverage for  [mongorito (v2.2.0)](https://github.com/vdemedes/mongorito#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongorito.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongorito) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongorito.svg)](https://travis-ci.org/npmtest/node-npmtest-mongorito)
 
 #### ES6 generator-based MongoDB ODM. It rocks.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mongorito/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mongorito/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mongorito/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mongorito/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongorito/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongorito/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mongorito/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mongorito/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongorito/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongorito/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mongorito/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mongorito/build/coverage.html/index.html)
 
@@ -117,7 +117,8 @@
             "prefer-spread": 0,
             "no-use-extend-native/no-use-extend-native": 0
         }
-    }
+    },
+    "bin": {}
 }
 ```
 
